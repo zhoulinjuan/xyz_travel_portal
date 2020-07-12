@@ -1,0 +1,68 @@
+{
+  "status": {
+    "code": "00-0000",
+    "error": "",
+    "message": "success"
+  },
+  "data": [
+    {
+      "applicationId": "2020_T00SS0080D_0705001",
+      "uen": "T00SS0080D",
+      "companyName": "ABC Pte Ltd",
+      "employeeName": "John",
+      "employeeId": "20150809101",
+      "employeePassport": "E12345678A",
+      "employeeOriginCountry": "Singapore",
+      "employeeDestinationCountry": "Malaysia",
+      "employeeTravelFromDate": "2020-07-15",
+      "employeeTravelToDate": "2020-07-25",
+      "submitDatetime": "2020-07-05T22:09:15.000+0000",
+      "submitBy": "mike@xyz.com",
+      "lastUpdateDatetime": "2020-07-05T16:29:42.783+0000",
+      "lastUpdateBy": "juan",
+      "travelCost": 2,
+      "status": "Approve",
+      "remarks": "string2.0",
+      "travelPath": {}
+    },
+    {
+      "applicationId": "20200706-T00SS0080D-403784862",
+      "uen": "T00SS0080D",
+      "companyName": "ABC Pte Ltd",
+      "employeeName": "string",
+      "employeeId": "string",
+      "employeePassport": "string",
+      "employeeOriginCountry": "string",
+      "employeeDestinationCountry": "string",
+      "employeeTravelFromDate": "string",
+      "employeeTravelToDate": "string",
+      "submitDatetime": "2020-07-06T04:37:45.510+0000",
+      "submitBy": "keith@efg.com",
+      "lastUpdateDatetime": "2020-07-06T06:24:51.427+0000",
+      "lastUpdateBy": "linjuan",
+      "travelCost": 101.11,
+      "status": "New",
+      "remarks": "string-1424",
+      "travelPath": {
+        "pathDetails": [
+          {
+            "stayDays": 2,
+            "countryTo": "Japan",
+            "countryFrom": "Singapore"
+          },
+          {
+            "stayDays": 2,
+            "countryTo": "China",
+            "countryFrom": "Japan"
+          }
+        ]
+      }
+    }
+  ],
+  "paginator": {
+    "currentPage": 1,
+    "pageSize": 10,
+    "pageCount": 1,
+    "recordCount": 2
+  }
+}

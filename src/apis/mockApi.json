@@ -1,0 +1,6 @@
+{
+  "getApplicant": "https://run.mocky.io/v3/069c2b4b-b6a2-4f73-b6cd-c214a79bf2e9",
+  "getAppList": "https://run.mocky.io/v3/451aa472-afde-4f9e-826b-568991584b37",
+  "getAppDetails": "https://run.mocky.io/v3/5eb63f1a-7205-488a-931f-a6af05e02ed2",
+  "submitApp": "/api/travel/application"
+}

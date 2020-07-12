@@ -1,0 +1,143 @@
+{
+  "tableMapping": [
+    {
+      "label": "Application ID",
+      "key": "applicationId",
+      "type": "link",
+      "link": "/application/view"
+    },
+    {
+      "label": "Company Name",
+      "key": "companyName"
+    },
+    {
+      "label": "Submit By",
+      "key": "submitBy"
+    },
+    {
+      "label": "Traveller Name",
+      "key": "employeeName"
+    },
+    {
+      "label": "Application Status",
+      "key": "status"
+    },
+    {
+      "label": "Application Date",
+      "key": "submitDatetime",
+      "type": "time"
+    }
+  ],
+  "applicationInfoMapping": [
+    {
+      "label1": "Traveller Name:",
+      "value1": "employeeName",
+      "label2": "NRIC/FIN:",
+      "value2": "employeeId"
+    },
+    {
+      "label1": "Passport No.:",
+      "value1": "employeePassport",
+      "label2": "",
+      "value2": ""
+    },
+    {
+      "label1": "Origin Country:",
+      "value1": "employeeOriginCountry",
+      "label2": "Destination Country:",
+      "value2": "employeeDestinationCountry"
+    },
+    {
+      "label1": "Travel From:",
+      "value1": "employeeTravelFromDate",
+      "label2": "Travel To:",
+      "value2": "employeeTravelToDate"
+    }
+  ],
+  "applicantInfoMapping": [
+    {
+      "label1": "Applicant Name:",
+      "value1": "applicantName",
+      "label2": "Applicant Contact:",
+      "value2": "applicantContact"
+    },
+    {
+      "label1": "Applicant Email:",
+      "value1": "applicantEmail",
+      "label2": "",
+      "value2": ""
+    }
+  ],
+  "ApplicationDetailsMapping": [
+    {
+      "label1": "Application ID:",
+      "value1": "applicationId",
+      "label2": "Employee Name:",
+      "value2": "employeeName"
+    },
+    {
+      "label1": "NRIC/FIN:",
+      "value1": "employeeId",
+      "label2": "Passport No.:",
+      "value2": "employeePassport"
+    },
+    {
+      "label1": "Origin Country:",
+      "value1": "employeeOriginCountry",
+      "label2": "Destination Country:",
+      "value2": "employeeDestinationCountry"
+    },
+    {
+      "label1": "Travel From:",
+      "value1": "employeeTravelFromDate",
+      "label2": "Travel To:",
+      "value2": "employeeTravelToDate"
+    },
+    {
+      "label1": "Submit By:",
+      "value1": "submitBy",
+      "label2": "Submit Date:",
+      "value2": "submitDatetime"
+    },
+    {
+      "label1": "Last Update By:",
+      "value1": "lastUpdateBy",
+      "label2": "Last Update Date:",
+      "value2": "lastUpdateDatetime"
+    },
+    {
+      "label1": "Status:",
+      "value1": "status",
+      "label2": "Travel Cost:",
+      "value2": "travelCost"
+    },
+    {
+      "label1": "Remarks:",
+      "value1": "remarks",
+      "label2": "",
+      "value2": ""
+    }
+  ],
+  "validationMap": {
+    "employeeName": {
+      "type": "string",
+      "message": "Please enter employee name"
+    },
+    "employeeId": {
+      "type": "nric",
+      "message": "Please correct NRIC/FIN"
+    },
+    "employeePassport": {
+      "type": "string",
+      "message": "Please employee passport"
+    },
+    "employeeOriginCountry": {
+      "type": "string",
+      "message": "Please enter origin country"
+    },
+    "employeeDestinationCountry": {
+      "type": "string",
+      "message": "Please enter destination country"
+    }
+  }
+}

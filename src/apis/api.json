@@ -1,0 +1,6 @@
+{
+  "getApplicant": "/api/travel/applicant:search",
+  "getAppList": "/api/travel/application:search",
+  "getAppDetails": "/api/travel/application",
+  "submitApp": "/api/travel/application"
+}

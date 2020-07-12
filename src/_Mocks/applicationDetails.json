@@ -1,0 +1,86 @@
+{
+  "applicationDetails": {
+    "status": {
+      "code": "00-0000",
+      "message": "successful.operation",
+      "details": ""
+    },
+    "data": {
+      "applicantInfo": {
+        "uen": "T00SS0080D",
+        "applicantName": "Keith",
+        "applicantContact": "97509111",
+        "applicantEmail": "keith@efg.com",
+        "role": "company_admin"
+      },
+      "companyInfo": {
+        "uen": "T00SS0080D",
+        "companyName": "Play@Tech",
+        "companyAddress": "10, Pasir Panjang Road, #10-01, Mapletree Business City, SINGAPORE 117438"
+      },
+      "applicationInfo": {
+        "applicationId": "20200706-T00SS0080D-403784862",
+        "uen": "T00SS0080D",
+        "employeeName": "string",
+        "employeeId": "string",
+        "employeePassport": "string",
+        "employeeOriginCountry": "string",
+        "employeeDestinationCountry": "string",
+        "employeeTravelFromDate": "string",
+        "employeeTravelToDate": "string",
+        "submitDatetime": "2020-07-06T04:37:45.510+0000",
+        "submitBy": "keith@efg.com",
+        "lastUpdateDatetime": "2020-07-06T06:24:51.427+0000",
+        "lastUpdateBy": "linjuan",
+        "travelCost": 101.11,
+        "status": "New",
+        "remarks": "string-1424",
+        "travelPath": {
+          "pathDetails": [
+            {
+              "stayDays": 2,
+              "countryTo": "Japan",
+              "countryFrom": "Singapore"
+            },
+            {
+              "stayDays": 2,
+              "countryTo": "China",
+              "countryFrom": "Japan"
+            }
+          ]
+        },
+        "companyName": "Play@Tech"
+      },
+      "applicationTransactionInfoList": [
+        {
+          "applicationId": "20200706-T00SS0080D-403784862",
+          "lastUpdateDatetime": "2020-07-06T06:24:51.427+0000",
+          "lastUpdateBy": null,
+          "travelCost": 101.11,
+          "status": "1",
+          "remarks": "string-1424"
+        },
+        {
+          "applicationId": "20200706-T00SS0080D-403784862",
+          "lastUpdateDatetime": "2020-07-06T04:39:52.127+0000",
+          "lastUpdateBy": "mike@xyz.com",
+          "travelCost": 100.01,
+          "status": "1",
+          "remarks": "string-20200706-T00SS0080D-403784862"
+        }
+      ]
+    }
+  },
+  "applicationInfo": {
+    "employeeDestinationCountry": "China(BeiJing)",
+    "employeeName": "Test A",
+    "employeeOriginCountry": "Singapore",
+    "employeePassport": "P7654321B",
+    "employeeTravelFromDate": "2020-07-10",
+    "employeeTravelToDate": "2020-07-22",
+    "status": "New",
+    "submitBy": "keith@xyz.com",
+    "submitDatetime": "2020-07-06T05:08:36.373Z",
+    "uen": "T00SS0080D"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "status": {
+    "code": "00-0000",
+    "message": "successful.operation",
+    "details": ""
+  },
+  "data": [
+    {
+      "uen": "T00SS0080D",
+      "applicantName": "Keith",
+      "applicantContact": "97509111",
+      "applicantEmail": "keith@xyz.com",
+      "role": "company_admin"
+    }
+  ],
+  "paginator": {
+    "currentPage": 1,
+    "pageSize": 10,
+    "pageCount": 1,
+    "recordCount": 1
+  }
+}
